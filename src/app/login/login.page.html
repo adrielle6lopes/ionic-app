@@ -1,7 +1,7 @@
 <ion-header>
     <ion-toolbar>
 
-        <ion-title>Login</ion-title>
+        <ion-title>login</ion-title>
     </ion-toolbar>
 </ion-header>
 
@@ -10,6 +10,7 @@
     <form [formGroup]="formGroup">
 
         <ion-list lines="full" class="ion-no-margin">
+
 
             <ion-item>
                 <ion-label position="floating">E-mail</ion-label>
@@ -26,6 +27,7 @@
         </ion-list>
 
         <ion-button color="primary" expand="full" (click)="logar()" [disabled]="formGroup.invalid">Entrar</ion-button>
-        <ion-button color="primary" expand="full" (click)="cadastrar()">Cadastrar</ion-button>
+        <ion-button color="warning" expand="full" (click)="paginaCadastro()">Criar Login</ion-button>
+
     </form>
 </ion-content>
