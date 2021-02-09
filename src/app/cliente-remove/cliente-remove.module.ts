@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ClientesPageRoutingModule } from './clientes-routing.module';
+import { ClienteRemovePageRoutingModule } from './cliente-remove-routing.module';
 
-import { ClientesPage } from './clientes.page';
+import { ClienteRemovePage } from './cliente-remove.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ClientesPageRoutingModule
+    ClienteRemovePageRoutingModule
   ],
-  declarations: [ClientesPage]
+  declarations: [ClienteRemovePage]
 })
-export class ClientesPageModule {}
+export class ClienteRemovePageModule {}

@@ -11,9 +11,8 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { environment } from 'src/environments/environment';
 import { HttpClientModule } from '@angular/common/http';
-import { TemplateService } from './services/template.service';
-import { ClienteService } from './services/cliente.service';
-
+import { TemplateService } from './service/template.service';
+import { ClienteService } from './service/cliente.service';
 
 @NgModule({
   declarations: [AppComponent],

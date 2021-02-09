@@ -18,18 +18,18 @@ export class AppComponent implements OnInit {
       icon: 'home'
     },
     {
-      title: 'Clientes',
-      url: '/clientes',
-      icon: 'person-circle'
-    },
-    {
-      title: 'Novo Cliente',
-      url: '/cliente-novo',
-      icon: 'person-circle'
-    },
-    {
       title: 'Perfil',
       url: '/perfil',
+      icon: 'person-circle'
+    },
+    {
+      title: 'Cadastro de Clientes',
+      url: '/cliente-cadastro',
+      icon: 'person-circle'
+    },
+    {
+      title: 'Lista de Clientes',
+      url: '/cliente-lista',
       icon: 'person-circle'
     },
     {
